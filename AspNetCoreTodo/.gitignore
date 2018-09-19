@@ -1,0 +1,5 @@
+# ignore all files in the bin directory
+bin/
+
+# ignore all files in the obj directory
+obj/

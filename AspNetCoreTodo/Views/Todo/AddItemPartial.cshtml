@@ -1,0 +1,11 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model TodoItem
+
+<form asp-action="AddItem" method="POST">
+    <label asp-for="Title">Add a new item: </label>
+    <input asp-for="Title" />
+    <button type="submit">Add</button>
+    </form>
